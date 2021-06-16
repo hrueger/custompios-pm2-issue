@@ -1,0 +1,8 @@
+export DIST_NAME=MyScriptPiOS
+export DIST_VERSION=0.0.1
+export MODULES="base(disable-overscan,install-myscript)"
+export BASE_USER=myscriptuser
+export BASE_USER_PASSWORD="secret"
+export BASE_ADD_USER=yes
+export BASE_SSH_ENABLE=yes
+export BASE_OVERRIDE_HOSTNAME=myscript

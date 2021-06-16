@@ -1,0 +1,25 @@
+++++ realpath -s /CustomPiOS/build
++++ dirname /CustomPiOS/build
+++ BUILD_SCRIPT_PATH=/CustomPiOS
+++ source /CustomPiOS/common.sh
+++ install_cleanup_trap
+++ set -e
+++ trap cleanup SIGINT SIGTERM
+++++ realpath -s /CustomPiOS/build
++++ dirname /CustomPiOS/build
+++ CUSTOM_OS_PATH=/CustomPiOS
+++ source /CustomPiOS/config
++++++ realpath -s /CustomPiOS/config
+++++ dirname /CustomPiOS/config
++++ CONFIG_DIR=/CustomPiOS
++++ export BUILD_VARIANT=default
++++ BUILD_VARIANT=default
++++ BUILD_FLAVOR=default
++++ WORKSPACE_POSTFIX=
++++ '[' 0 -gt 0 ']'
++++ '[' 0 -gt 1 ']'
++++ echo -e '--> Building VARIANT default, FLAVOR default'
+--> Building VARIANT default, FLAVOR default
++++ '[' -f /CustomPiOS/config.local ']'
++++ source /distro/config
+/CustomPiOS/config: line 24: /distro/config: No such file or directory

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Update Software
+# GPL V3
+########
+
+set -x
+set -e
+

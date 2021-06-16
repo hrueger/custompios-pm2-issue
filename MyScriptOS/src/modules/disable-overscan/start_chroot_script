@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Disable Overscan
+# GPL V3
+########
+
+
+# Source error handling, leave this in place
+set -x
+set -e
+
+source /common.sh
+install_cleanup_trap
+
+set_config_var disable_overscan 1

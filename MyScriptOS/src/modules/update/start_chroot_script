@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Update Software
+# GPL V3
+########
+
+
+# Source error handling, leave this in place
+set -x
+set -e
+
+source /common.sh
+install_cleanup_trap
+
+sudo apt-get update
+sudo apt-get upgrade -y

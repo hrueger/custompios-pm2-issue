@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# MyScript-Installer
+# GPL V3
+########
+
+set -x
+set -e
+
