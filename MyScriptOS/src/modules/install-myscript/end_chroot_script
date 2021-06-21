@@ -6,3 +6,9 @@
 set -x
 set -e
 
+# Install fuser
+apt-get install -y psmisc
+
+# Kill processes using /proc
+fuser -cuk /proc
+
